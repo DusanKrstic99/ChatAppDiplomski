@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "589380636299",
+    "firebase_url": "https://chatapp-85c4f.firebaseio.com",
+    "project_id": "chatapp-85c4f",
+    "storage_bucket": "chatapp-85c4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589380636299:android:bd4314a1a21261800fce8e",
+        "android_client_info": {
+          "package_name": "rs.edu.viser.pmu.chatappdiplomski"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589380636299-nog16v48opvflevlpicumerjpfgd3ufj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmXZkVWUf6iJEq1XncUBhnzyhDV_nFTIs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "589380636299-nog16v48opvflevlpicumerjpfgd3ufj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

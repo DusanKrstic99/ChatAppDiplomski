@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ChatApp</string>
+    <string name="poruke">ChatApp</string>
+    <string name="zahtevi">Zahtevi za prijateljstvo</string>
+    <string name="posalji_zahtev">Pošaljite zahtev</string>
+    <string name="nova_poruka">Izaberite prijatelja za chat</string>
+
+
+
+</resources>

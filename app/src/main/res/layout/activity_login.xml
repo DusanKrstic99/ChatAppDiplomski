@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#003DB6"
+    tools:context=".activities.PrijavaActivity"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/slika"
+        android:scaleType="centerCrop"
+        />
+
+    <EditText
+        android:id="@+id/EmailPrijava"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/zaokrugljeni_inputi_registracija_prijava"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="20dp"
+        android:paddingRight="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/PasswordPrijava"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/zaokrugljeni_inputi_registracija_prijava"
+        android:ems="10"
+        android:hint="Lozinka"
+        android:inputType="textPassword"
+        android:paddingRight="8dp"
+        android:paddingLeft="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/EmailPrijava"
+        app:layout_constraintHorizontal_bias="0.422"
+        app:layout_constraintStart_toStartOf="@+id/EmailPrijava"
+        app:layout_constraintTop_toBottomOf="@+id/EmailPrijava" />
+
+    <Button
+        android:id="@+id/Prijava"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/zaokrugljeno_dugme"
+        android:text="Prijavi Se"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="@+id/PasswordPrijava"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/PasswordPrijava"
+        app:layout_constraintTop_toBottomOf="@+id/PasswordPrijava" />
+
+    <TextView
+        android:id="@+id/VratiRegistraciju"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Vratite se na registraciju"
+        android:textColor="@android:color/background_light"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/Prijava"
+        app:layout_constraintStart_toStartOf="@+id/Prijava"
+        app:layout_constraintTop_toBottomOf="@+id/Prijava" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

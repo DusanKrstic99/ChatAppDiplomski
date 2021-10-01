@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu_nova_poruka"
+        android:title="Nova Poruka"
+        app:showAsAction="ifRoom"/>
+
+    <item
+            android:id="@+id/menu_zahtevi"
+            android:title="Pogledajte zahteve"
+
+             />
+    <item
+        android:id="@+id/menu_svi"
+        android:title="Dodaj prijatelje" />
+    <item
+            android:id="@+id/menu_odjava"
+            android:title="Odjavi Se"
+            />
+
+</menu>
